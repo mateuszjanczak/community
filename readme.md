@@ -32,3 +32,6 @@ php artisan migrate
 
 ### tags, profiles and parsed links demonstration
 ![Demo3](./demo3.gif)
+
+### settings section and changing avatar
+![Demo4](./demo4.gif)
