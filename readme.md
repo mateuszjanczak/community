@@ -28,4 +28,7 @@ php artisan migrate
 ![Demo1](./demo1.gif)
 
 ### creating and managing new posts/comments
-![Demo1](./demo2.gif)
+![Demo2](./demo2.gif)
+
+### tags, profiles and parsed links demonstration
+![Demo3](./demo3.gif)
