@@ -10,7 +10,7 @@
     <div id="details" class="content has-text-justified is-size-6 is-size-7-mobile">
         <p>
             <strong><a href="{{ route('profile', $comment->user->username) }}">{{ $comment->user->username }}</a></strong>
-            <small> · <a href="{{ route('post', $post->id)."/".$post->short."/#comment-".$comment->id }}">{{ \App\Helpers\Time::toTimeAgo($comment->created_at) }}</a>@if($comment->created_at != $comment->updated_at) · Edited {{ \App\Helpers\Time::toTimeAgo($comment->updated_at) }}@endif</small>
+            <small> · <a href="{{ route('post', $comment->post->id)."/".$comment->post->short."/#comment-".$comment->id }}">{{ \App\Helpers\Time::toTimeAgo($comment->created_at) }}</a>@if($comment->created_at != $comment->updated_at) · Edited {{ \App\Helpers\Time::toTimeAgo($comment->updated_at) }}@endif</small>
             <p style="white-space: pre-wrap;">{!! \App\Helpers\ParseTag::parseTag($comment->content) !!}</p>
             @auth
                 @can('your-comment', $comment)
