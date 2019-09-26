@@ -35,3 +35,9 @@ php artisan migrate
 
 ### settings section and changing avatar
 ![Demo4](./demo4.gif)
+
+### ajax loading posts, custom pagination, users
+![Demo5](./demo5.gif) 
+
+### last but not least -> mobile first
+![Demo6](./demo6.jpg)
