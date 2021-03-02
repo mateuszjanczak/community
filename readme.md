@@ -27,19 +27,19 @@ php artisan migrate
 
 ## Preview
 ### Login and registration page
-![Demo1](./demo1.gif)
+![Demo1](docs/demo1.gif)
 
 ### Creating and managing new posts/comments
-![Demo2](./demo2.gif)
+![Demo2](docs/demo2.gif)
 
 ### Tags, profiles and parsed links demonstration
-![Demo3](./demo3.gif)
+![Demo3](docs/demo3.gif)
 
 ### Settings section and changing avatar
-![Demo4](./demo4.gif)
+![Demo4](docs/demo4.gif)
 
 ### AJAX loading posts, custom pagination, users
-![Demo5](./demo5.gif) 
+![Demo5](docs/demo5.gif) 
 
 ### Last but not least -> mobile first
-![Demo6](./demo6.jpg)
+![Demo6](docs/demo6.jpg)
