@@ -12,6 +12,8 @@ Documentation for the framework can be found on the [Laravel website](https://la
 ## Requirements
 PHP >= 7.2.0, BCMath PHP Extension, Ctype PHP Extension, JSON PHP Extension, Mbstring PHP Extension, OpenSSL PHP Extension, PDO PHP Extension, Tokenizer PHP Extension, XML PHP Extension
 
+## Demo
+https://mj-community.herokuapp.com/
 
 ## Installation
 
@@ -24,20 +26,20 @@ php artisan migrate
 ```
 
 ## Preview
-### login and registration page
+### Login and registration page
 ![Demo1](./demo1.gif)
 
-### creating and managing new posts/comments
+### Creating and managing new posts/comments
 ![Demo2](./demo2.gif)
 
-### tags, profiles and parsed links demonstration
+### Tags, profiles and parsed links demonstration
 ![Demo3](./demo3.gif)
 
-### settings section and changing avatar
+### Settings section and changing avatar
 ![Demo4](./demo4.gif)
 
-### ajax loading posts, custom pagination, users
+### AJAX loading posts, custom pagination, users
 ![Demo5](./demo5.gif) 
 
-### last but not least -> mobile first
+### Last but not least -> mobile first
 ![Demo6](./demo6.jpg)
