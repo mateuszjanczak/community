@@ -13,7 +13,7 @@ Documentation for the framework can be found on the [Laravel website](https://la
 PHP >= 7.2.0, BCMath PHP Extension, Ctype PHP Extension, JSON PHP Extension, Mbstring PHP Extension, OpenSSL PHP Extension, PDO PHP Extension, Tokenizer PHP Extension, XML PHP Extension
 
 ## Demo
-https://mj-community.herokuapp.com/
+https://mj-community.herokuapp.com/ (wait for heroku to get up)
 
 ## Installation
 
