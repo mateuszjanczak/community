@@ -1,7 +1,7 @@
 <div class="post">
     <figure class="media-left" style="float: left">
         <p class="image is-64x64">
-            <img class="avatar" src="@if($post->user->avatar) {{ asset('avatar/'.$post->user->avatar) }} @else {{ asset('avatar/default.jpg') }} @endif">
+            <img class="avatar" src="@if($post->user->avatar) {{ secure_asset('avatar/'.$post->user->avatar) }} @else {{ secure_asset('avatar/default.jpg') }} @endif">
         </p>
     </figure>
     <div class="media-right" style="float: right">

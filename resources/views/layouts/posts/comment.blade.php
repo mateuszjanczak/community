@@ -1,7 +1,7 @@
 <div class="comment">
     <figure class="media-left" style="float: left;">
         <p class="image is-48x48">
-            <img class="avatar" src="@if($comment->user->avatar) {{ asset('avatar/'.$comment->user->avatar) }} @else {{ asset('avatar/default.jpg') }} @endif">
+            <img class="avatar" src="@if($comment->user->avatar) {{ secure_asset('avatar/'.$comment->user->avatar) }} @else {{ secure_asset('avatar/default.jpg') }} @endif">
         </p>
     </figure>
     <div class="media-right" style="float: right">

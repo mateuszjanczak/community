@@ -113,7 +113,7 @@
     let currentPage =  "{{ $posts->nextPageUrl() }}"+"?post=";
     let lastPostId = @if(sizeof($posts) && $posts->hasMorePages()) {{ $posts[sizeof($posts)-1]->id }} @else "" @endif;
     let nextPage = currentPage+lastPostId;
-    let loadingUrl = "{{ asset('loading.svg') }}";
+    let loadingUrl = "{{ secure_asset('loading.svg') }}";
 
     $(document).ready(function() {
         $(window).scroll(fetchPosts);
