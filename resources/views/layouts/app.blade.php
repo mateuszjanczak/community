@@ -5,13 +5,13 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <title>Community @yield("title")</title>
-    <link href="{{ asset('css/bulma/bulma.min.css')  }}" rel="stylesheet">
-    <link href="{{ asset('css/style.css') }}" rel="stylesheet">
-    <script src="{{ asset('js/fontawesome/all.js') }}"></script>
-    <script src="{{ asset('js/pulltorefresh/index.umd.min.js') }}"></script>
-    <script src="{{ asset('js/jquery/jquery.min.js') }}"></script>
-    <script src="{{ asset('js/jscroll/jquery.jscroll.min.js') }}"></script>
-    <script src="{{ asset('js/scripts.js') }}"></script>
+    <link href="{{ secure_asset('css/bulma/bulma.min.css')  }}" rel="stylesheet">
+    <link href="{{ secure_asset('css/style.css') }}" rel="stylesheet">
+    <script src="{{ secure_asset('js/fontawesome/all.js') }}"></script>
+    <script src="{{ secure_asset('js/pulltorefresh/index.umd.min.js') }}"></script>
+    <script src="{{ secure_asset('js/jquery/jquery.min.js') }}"></script>
+    <script src="{{ secure_asset('js/jscroll/jquery.jscroll.min.js') }}"></script>
+    <script src="{{ secure_asset('js/scripts.js') }}"></script>
     <meta name="csrf-token" content="{{ csrf_token() }}">
 </head>
 
@@ -19,7 +19,7 @@
 <nav class="navbar is-light is-fixed-top">
     <div class="navbar-brand">
         <a class="navbar-item" href="{{ action('HomeController@index') }}">
-            <img height="70" src="{{ asset('logo.png') }}">
+            <img height="70" src="{{ secure_asset('logo.png') }}">
         </a>
 
         <a class="navbar-burger burger">

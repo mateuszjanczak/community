@@ -21,7 +21,7 @@
                     <div class="media">
                         <div class="media-left">
                             <figure class="image is-48x48">
-                                <img class="avatar" src="@if($user->avatar) {{ asset('avatar/'.$user->avatar) }} @else {{ asset('avatar/default.jpg') }} @endif">
+                                <img class="avatar" src="@if($user->avatar) {{ secure_asset('avatar/'.$user->avatar) }} @else {{ secure_asset('avatar/default.jpg') }} @endif">
                             </figure>
                         </div>
                         <div class="media-content">

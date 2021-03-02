@@ -17,7 +17,7 @@
                     <strong class="help is-danger is-size-5">{{ session('status') }}</strong><br>
                 @endif
                 <div class="field">
-                    <img class="avatar" src="@if(Auth::user()->avatar) {{ asset('avatar/'.Auth::user()->avatar) }} @else {{ asset('avatar/default.jpg') }} @endif">
+                    <img class="avatar" src="@if(Auth::user()->avatar) {{ secure_asset('avatar/'.Auth::user()->avatar) }} @else {{ secure_asset('avatar/default.jpg') }} @endif">
                 </div>
                 @error('avatar')
                     <p class="help is-danger">{{ $message }}</p>
