@@ -11,6 +11,8 @@
 |
 */
 
+URL::forceScheme('https');
+
 Auth::routes();
 
 // laravel.local/
